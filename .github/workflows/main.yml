@@ -30,4 +30,4 @@ jobs:
       
       run: npm install -g surge
     - name : url naming
-      run: surge ./ hammad.surge.sh --token ${{secrets.WEB_TOKEN}}
+      run: surge ./ hammad_bootcamp2020.surge.sh --token ${{secrets.WEB_TOKEN}}
